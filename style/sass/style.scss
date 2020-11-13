@@ -1,5 +1,3 @@
-@import './mains.scss';
-
 @keyframes check {
     from {
       width: 0%;
@@ -491,7 +489,7 @@
     animation-fill-mode: forwards;
   }
   
-  .card--theFullPalette {
+  .card--palette {
     width: 100%;
     height: 174px;
     border-top-left-radius: 10px;
@@ -501,7 +499,7 @@
     background-position: center;
   }
   
-  .card--theEnchantedPlate {
+  .card--note {
     width: 100%;
     height: 174px;
     border-top-left-radius: 10px;
@@ -511,7 +509,7 @@
     background-position: center;
   }
   
-  .card--bastille {
+  .card--francaise {
     width: 100%;
     height: 174px;
     border-top-left-radius: 10px;
@@ -521,7 +519,7 @@
     background-position: center;
   }
   
-  .card--leGourmand {
+  .card--delice {
     width: 100%;
     height: 174px;
     border-top-left-radius: 10px;
@@ -777,23 +775,23 @@
     display: none;
   }
   
-  .menu .bastille {
+  .menu .francaise {
     width: 100%;
     height: 246px;
-    background-image: url("../img/restaurants/le_gourmand.jpg");
+    background-image: url("../img/restaurants/alafrancaise.jpg");
     background-size: cover;
     background-position: center;
   }
   
-  .menu .gourmand {
+  .menu .delice {
     width: 100%;
     height: 246px;
-    background-image: url("../img/restaurants/le_gourmand.jpg");
+    background-image: url("../img/restaurants/delice.jpg");
     background-size: cover;
     background-position: center;
   }
   
-  .menu .full-palette {
+  .menu .palette {
     width: 100%;
     height: 246px;
     background-image: url("../img/restaurants/lapalette.jpg");
@@ -801,10 +799,10 @@
     background-position: center;
   }
   
-  .menu .enchanted-plate {
+  .menu .note {
     width: 100%;
     height: 246px;
-    background-image: url("../img/restaurants/the_enchanted_plate.jpg");
+    background-image: url("../img/restaurants/noteenchante.jpg");
     background-size: cover;
     background-position: center;
   }

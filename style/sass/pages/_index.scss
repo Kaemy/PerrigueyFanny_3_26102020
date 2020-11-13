@@ -79,9 +79,6 @@
             align-self: center;
         }
     }
-    & img{
-        display: none;
-    }
     &__cards{
         @include medium-size{
             @include general-flex(row, space-between);

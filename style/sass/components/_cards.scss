@@ -52,16 +52,16 @@
             @include heart-hover;
         }  
     }
-    &--theFullPalette{
+    &--palette{
         @include card(url("../img/restaurants/lapalette.jpg"));
     }
-    &--theEnchantedPlate{
+    &--note{
         @include card(url("../img/restaurants/the_enchanted_plate.jpg"));
     }
-    &--bastille{
+    &--bfrancaise{
         @include card(url("../img/restaurants/bastille.jpg"));
     }
-    &--leGourmand{
+    &--delice{
         @include card(url("../img/restaurants/le_gourmand.jpg"));
     }
 }
