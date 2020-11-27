@@ -77,9 +77,7 @@
     transform: scaleX(0.95);
   }
   100% {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FF79DA;
     transform: scaleY(1);
     transform: scaleX(1);
   }
@@ -464,13 +462,13 @@ a {
 }
 .card--text .fa-stack:hover .state1 {
   animation-name: heart2;
-  animation-duration: 0.2s;
+  animation-duration: 0.5s;
   animation-delay: 0.2s;
   animation-fill-mode: forwards;
 }
 .card--text .fa-stack:hover .state2 {
   animation-name: heart;
-  animation-duration: 0.2s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 .card--palette {
@@ -800,13 +798,13 @@ hr {
 }
 .menu__carte .fa-stack:hover .state1 {
   animation-name: heart2;
-  animation-duration: 0.2s;
+  animation-duration: 0.5s;
   animation-delay: 0.2s;
   animation-fill-mode: forwards;
 }
 .menu__carte .fa-stack:hover .state2 {
   animation-name: heart;
-  animation-duration: 0.2s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 .menu__carte__entrees {
