@@ -77,7 +77,9 @@
     transform: scaleX(0.95);
   }
   100% {
-    color: #FF79DA;
+    background: -webkit-linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transform: scaleY(1);
     transform: scaleX(1);
   }
