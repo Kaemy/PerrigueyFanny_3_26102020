@@ -598,12 +598,18 @@ hr {
 }
 @media screen and (min-width: 1440px) {
   .how-it-works {
-    padding: 50px 35%;
+    padding: 50px 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
   }
 }
 @media screen and (min-width: 2560px) {
   .how-it-works {
-    padding: 50px 40%;
+    padding: 50px 25%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
   }
 }
 .how-it-works__step1 {
@@ -655,6 +661,16 @@ hr {
 }
 .how-it-works__step3:hover .fas {
   color: #9356DC;
+}
+@media screen and (min-width: 1440px) {
+  .how-it-works__step3 {
+    margin: 22px 0;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .how-it-works__step3 {
+    margin: 22px 0;
+  }
 }
 .how-it-works .fas {
   margin: 0 20px 0 0;

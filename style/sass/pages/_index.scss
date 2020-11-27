@@ -31,10 +31,16 @@
         padding: 50px 30%;
     }
     @include xlarge-size{
-        padding: 50px 35%;
+        padding: 50px 20%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
     }
     @include xxlarge-size{
-        padding: 50px 40%;
+        padding: 50px 25%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
     }
     &__step1{
         @include general-flex(row, flex-start, center);
@@ -49,6 +55,14 @@
     &__step3{
         @include general-flex(row, flex-start, center);
         @include steps;
+
+        @include xlarge-size {
+            margin: 22px 0;
+        }
+
+        @include xxlarge-size {
+            margin: 22px 0;
+        }
     }
     & .fas{
         margin: 0 20px 0 0;
