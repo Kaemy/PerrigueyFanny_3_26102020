@@ -56,12 +56,12 @@
         @include card(url("../img/restaurants/lapalette.jpg"));
     }
     &--note{
-        @include card(url("../img/restaurants/the_enchanted_plate.jpg"));
+        @include card(url("../img/restaurants/noteenchante.jpg"));
     }
-    &--bfrancaise{
-        @include card(url("../img/restaurants/bastille.jpg"));
+    &--francaise{
+        @include card(url("../img/restaurants/alafrancaise.jpg"));
     }
     &--delice{
-        @include card(url("../img/restaurants/le_gourmand.jpg"));
+        @include card(url("../img/restaurants/delice.jpg"));
     }
 }

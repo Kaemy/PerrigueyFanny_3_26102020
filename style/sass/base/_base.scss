@@ -12,9 +12,14 @@
 .main-bloc{
     width: 100%;
 }
-h1,h2,h3,h4,h5,h6{
+h1, h5, h6{
     font-family: $title-font-family;
 }
+
+h2,h3,h4 {
+    font-family: $text-font-family;
+}
+
 h1{
     font-size: 1.72rem;
     @include xlarge-size{

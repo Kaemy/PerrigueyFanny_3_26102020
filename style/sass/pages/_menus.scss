@@ -3,9 +3,7 @@
 }
 .menu{
     width: 100%;
-    & img{
-        display: none;
-    }
+    
     & .francaise{
         @include menus-image(url("../img/restaurants/alafrancaise.jpg"));
     }

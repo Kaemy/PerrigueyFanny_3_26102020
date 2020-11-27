@@ -7,7 +7,7 @@
         <title>ohmyfood</title>
         <link rel="shortcut icon" href="/img/logo/icon.png">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="style/style.css">
         <script src="https://kit.fontawesome.com/31a1c4275b.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -19,7 +19,7 @@
                 </span>
             </div>
             <header class="header">
-                <img class="header__logo" src="img/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
+                <img class="header__logo" src="img/logo/ohmyfood-header.svg" alt="logo ohmyfood">
             </header>
             <section class="localisation">
                 <div class="localisation__actual">
@@ -28,7 +28,7 @@
                 <div class="localisation__selection">
                     <h2>Réservez le menu qui vous convient</h2>
                     <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-                    <button class="btn--main">Explorer nos restaurants</button>
+                    <a href=#restaurants-explo><button class="btn--main">Explorer nos restaurants</button></a>
                 </div>
             </section>
             <section class="how-it-works">
@@ -37,7 +37,7 @@
                 <a href="#"><div class="how-it-works__step2"><p>2</p><i class="fas fa-list fa-fw"></i>Composez votre menu</div></a>
                 <a href="#"><div class="how-it-works__step3"><p>3</p><i class="fas fa-store fa-fw"></i>Dégustez au restaurant</div></a>
             </section>
-            <section class="restaurants-list">
+            <section id="restaurants-explo" class="restaurants-list">
                 <h3 class="restaurants-list__title">Restaurants</h3>
                 <div class="restaurants-list__cards">
                     <div class="card">
@@ -104,7 +104,7 @@
                 </div>
             </section>
             <footer class="footer">
-                <h5>ohmyfood</h5>
+                <img class="footer__logo" src="img/logo/ohmyfood-footer.svg" alt="logo ohmyfood">
                 <nav>
                     <ul>
                         <li><i class="fas fa-utensils fa-fw"></i><a href="#">Proposer un restaurant</a></li>

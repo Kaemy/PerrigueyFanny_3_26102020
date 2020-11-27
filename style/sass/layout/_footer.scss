@@ -2,8 +2,9 @@
     @include general-padding;
     color: white;
     background-color: darken($grey-background, 75.7%);
-    & h5{
-        padding-bottom: 20px;
+    &__logo{
+        width: 140px;
+        padding-bottom: 15px;
     }
     & ul{
         list-style: none;
